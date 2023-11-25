@@ -14,10 +14,10 @@ const Layout = ({ children }) => {
     backgroundColor: '#25d366',
     color: 'white',
     border: 'none',
-    borderRadius: '50%', // Rounded shape
+    borderRadius: '15px', // Rounded shape
     cursor: 'pointer',
     outline: 'none',
-    fontSize: '28px', // Increased font size for larger buttons
+    fontSize: '18px', // Increased font size for larger buttons
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',
@@ -55,7 +55,7 @@ const Layout = ({ children }) => {
         style={{ ...buttonStyle, backgroundColor: '#25d366' }}
         href="#"
       >
-        <i className="bx bxl-whatsapp" ></i>
+        <i className="bx bxl-whatsapp" >إحجز الأن علي واتساب</i>
       </a>
       
       {/* Floating Call button */}
@@ -64,7 +64,7 @@ const Layout = ({ children }) => {
         style={{ ...buttonStyle, backgroundColor: '#007bff',bottom:'90px' }}
         href="#"
       >
-        <i className="bx bx-phone" ></i>
+        <i className="bx bx-phone" >إتصل بنا</i>
       </a>    
     </div>
       <GoTop scrollStepInPx="100" delayInMs="10.50" />
